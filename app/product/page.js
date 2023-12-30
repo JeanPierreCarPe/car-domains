@@ -1,4 +1,4 @@
-import { logo1 } from "@/public/assets/images/logos";
+import { logo9 } from "@/public/assets/images/logos";
 import ReturnButton from "../components/ReturnButton";
 import Image from "next/image";
 
@@ -9,23 +9,23 @@ const page = () => {
         <ReturnButton />
         <div className="relative h-fit flex flex-col gap-5 lg:gap-10">
           <div className="relative h-[200px] lg:h-[300px] w-full overflow-hidden flex justify-center items-center">
-            <Image src={logo1} height={300} alt="product-image" />
+            <Image src={logo9} height={300} alt="product-image" />
           </div>
           <a
             href="https://www.namebuzzard.com/product-category/all-categories/?product_tag=cannabis"
-            className="w-full h-[60px] lg:h-[90px] bg-orange rounded-xl lg:rounded-3xl font-poppins font-medium text-xl text-white flex justify-center items-center"
+            className="w-full h-[60px] lg:h-[90px] bg-buttonColor rounded-xl lg:rounded-3xl font-poppins font-medium text-xl text-white flex justify-center items-center"
           >
             Shop Now
           </a>
         </div>
       </div>
-      <div className="w-full lg:w-2/4 h-fit lg:h-screen bg-[#5A755F] flex flex-col justify-center px-5 py-10 md:p-10 lg:p-16 gap-12 pt-[70px] lg:pt-[90px]">
+      <div className="w-full lg:w-2/4 h-fit lg:h-screen bg-[#555964] flex flex-col justify-center px-5 py-10 md:p-10 lg:p-16 gap-12 pt-[70px] lg:pt-[90px]">
         <div className="relative flex flex-col gap-3">
           <h5 className="font-poppins text-white text-xl font-semibold">
             DOMAIN NAME
           </h5>
           <h2 className="font-poppins text-white text-4xl">
-            acapetemy.com
+            motoprofits.com
           </h2>
           <p className="font-poppins text-white text-base tracking-wider">
             This is a great name for any retail store that wants to sell growing

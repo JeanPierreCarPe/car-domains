@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         white: "#FBFBFB",
-        lightGreen: "#E2E9E3",
-        orange: "#F39201"
+        bgColor: "#E6E5EA",
+        buttonColor: "#1E1D22"
       },
       backgroundImage: {
         header: "url('/assets/images/bg-header.jpg')",
